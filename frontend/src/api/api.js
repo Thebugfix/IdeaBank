@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:5000/api', // <-- Critical
+  baseURL: 'https://idea-bank-smoky.vercel.app/api', // <-- Critical
   headers: {
     'Content-Type': 'application/json',
   },
