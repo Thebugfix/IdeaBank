@@ -9,7 +9,7 @@ const app = express();
 
 // CORS
 app.use(cors({
-  origin: 'http://localhost:5173',
+  origin: 'https://idea-bank-6ur3.vercel.app',
   credentials: true
 }));
 
