@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://idea-bank-smoky.vercel.app/api', // <-- Critical
+  baseURL: 'https://ideabank-t2t6.onrender.com/api', // <-- Critical
   headers: {
     'Content-Type': 'application/json',
   },
